@@ -46,7 +46,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('👽 Owner', url='https://t.me/ZEROX_AS')
-            ],
+            ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
