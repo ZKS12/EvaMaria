@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('👽 Owner', url='https://t.me/ZEROX_AS')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('🌝 Channel', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -94,7 +94,7 @@ async def start(client, message):
             InlineKeyboardButton('👽 Owner', url='https://t.me/ZEROX_AS')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('🌝 Channel', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
